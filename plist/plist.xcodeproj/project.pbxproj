@@ -14,6 +14,7 @@
 		C42BD3821BCF664C00D841C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42BD3811BCF664C00D841C0 /* Images.xcassets */; };
 		C42BD3851BCF664C00D841C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42BD3831BCF664C00D841C0 /* LaunchScreen.xib */; };
 		C42BD3911BCF664C00D841C0 /* plistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42BD3901BCF664C00D841C0 /* plistTests.m */; };
+		C42BD39C1BCF674E00D841C0 /* JDState.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42BD39B1BCF674E00D841C0 /* JDState.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C42BD38A1BCF664C00D841C0 /* plistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42BD38F1BCF664C00D841C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42BD3901BCF664C00D841C0 /* plistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plistTests.m; sourceTree = "<group>"; };
+		C42BD39B1BCF674E00D841C0 /* JDState.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JDState.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		C42BD3731BCF664C00D841C0 /* plist */ = {
 			isa = PBXGroup;
 			children = (
+				C42BD39A1BCF673F00D841C0 /* iPhonePlists */,
 				C42BD3781BCF664C00D841C0 /* AppDelegate.h */,
 				C42BD3791BCF664C00D841C0 /* AppDelegate.m */,
 				C42BD37B1BCF664C00D841C0 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				C42BD38F1BCF664C00D841C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42BD39A1BCF673F00D841C0 /* iPhonePlists */ = {
+			isa = PBXGroup;
+			children = (
+				C42BD39B1BCF674E00D841C0 /* JDState.plist */,
+			);
+			path = iPhonePlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			files = (
 				C42BD3801BCF664C00D841C0 /* Main.storyboard in Resources */,
 				C42BD3851BCF664C00D841C0 /* LaunchScreen.xib in Resources */,
+				C42BD39C1BCF674E00D841C0 /* JDState.plist in Resources */,
 				C42BD3821BCF664C00D841C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				C42BD3961BCF664C00D841C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42BD3971BCF664C00D841C0 /* Build configuration list for PBXNativeTarget "plistTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				C42BD3991BCF664C00D841C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
